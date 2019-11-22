@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ 
+ /* Alteraçlão de estilo */
+ ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul li{
+    display: inline;
+    /*tornar minha lista horizontal*/
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(75, 75, 255);
+}
+img{
+    
+    height: 400px;
+    width: 550px;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Calistoga', cursive;
+}
+
+.menor{
+    font-size: 15px;
+}
+
+.textoUm{
+    text-align: center;
+    margin: 20px 100px 50px 100px ;
+}
+
+nav{
+    background-color: rgb(235, 133, 0);
+}
+
